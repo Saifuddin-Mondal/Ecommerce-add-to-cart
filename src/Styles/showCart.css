@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.totalItem-total{
+    margin-top: 90px;
+    width: 55%;
+    margin: auto;
+}
+.totalItem-total p{
+    font-weight: bold;
+}
+.total-item-p{
+    width: 100%;
+    margin-top: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media screen and (max-width:674px){
+    .total-item-p{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+}
