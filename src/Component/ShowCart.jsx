@@ -34,7 +34,7 @@ const ShowCart = () => {
                             <img src={item.image} alt={`${item.title}`} width="163px" height="231px" />
                             <p>{TurncateText(item.description, 15)}</p>
                             <p className='rupees'>${item.price}</p>
-                            <button onClick={() => Dispatch(removeFromCart(item))} type='submit'>Remove from Cart</button>
+                            <button className='big-btn' onClick={() => Dispatch(removeFromCart(item))} type='submit'>Remove from Cart</button>
                         </div>
                     ))
                 }

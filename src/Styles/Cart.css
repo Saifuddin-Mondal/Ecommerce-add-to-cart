@@ -57,7 +57,7 @@
 .rupees{
     font-weight: 800;
 }
-.cart-item button{
+.big-btn{
     padding: 10px 15px;
     gap: 5px;
     border-radius: 5px;
@@ -67,8 +67,12 @@
 .icon-add{
     margin-left: 6px;
 }
-.cart-item button:hover{
+.big-btn:hover{
     background-color: orangered;
     cursor: pointer;
     color: white;
+}
+.small-btn{
+    outline: none;
+    border: none;
 }
